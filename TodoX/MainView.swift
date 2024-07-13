@@ -1,13 +1,17 @@
 //
-//  ContentView.swift
+//  MainView.swift
 //  TodoX
 //
 //  Created by Shimol Khan on 14/07/2024.
 //
 
+import FirebaseCore
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
+    init(){
+        FirebaseApp.configure()
+    }
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +24,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }
