@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB5EE65F2C440CD100C7369A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5EE65E2C440CD100C7369A /* HeaderView.swift */; };
+		EB5EE6612C44218500C7369A /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5EE6602C44218500C7369A /* TLButton.swift */; };
 		EBE490262C42E4FE00E01F0B /* TodoXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE490252C42E4FE00E01F0B /* TodoXApp.swift */; };
 		EBE490282C42E4FE00E01F0B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE490272C42E4FE00E01F0B /* MainView.swift */; };
 		EBE4902A2C42E4FF00E01F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE490292C42E4FF00E01F0B /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 
 /* Begin PBXFileReference section */
 		EB5EE65E2C440CD100C7369A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EB5EE6602C44218500C7369A /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		EBE490222C42E4FE00E01F0B /* TodoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE490252C42E4FE00E01F0B /* TodoXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoXApp.swift; sourceTree = "<group>"; };
 		EBE490272C42E4FE00E01F0B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				EBE490762C42EE0200E01F0B /* TodoListItemsView.swift */,
 				EBE490782C42EE1600E01F0B /* NewItemView.swift */,
 				EBE4907B2C42EE3900E01F0B /* LogInView.swift */,
+				EB5EE6602C44218500C7369A /* TLButton.swift */,
 				EBE4907D2C42EE4600E01F0B /* SignUpView.swift */,
 				EBE4907F2C42EE7D00E01F0B /* TodoListItemView.swift */,
 				EBE490812C42EEAC00E01F0B /* TodoListView.swift */,
@@ -321,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBE490822C42EEAC00E01F0B /* TodoListView.swift in Sources */,
+				EB5EE6612C44218500C7369A /* TLButton.swift in Sources */,
 				EBE490922C42EFBB00E01F0B /* SignUpViewModel.swift in Sources */,
 				EBE4907E2C42EE4600E01F0B /* SignUpView.swift in Sources */,
 				EBE4908E2C42EFA200E01F0B /* NewItemViewModel.swift in Sources */,
